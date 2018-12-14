@@ -58,7 +58,6 @@ $route['user/update/(:any)/(:any)/(:any)/(:any)/(:any)/(:any)'] = 'user/updateUs
 $route['user/delete/(:any)'] = 'user/deleteUser/$1';
 $route['user/disable/(:any)'] = 'user/disableUser/$1';
 $route['user/enable/(:any)'] = 'user/enableUser/$1';
-$route['test/(:any)'] = 'user/testBuilder/$1';
 
 $route['404_override'] = 'user';
 $route['translate_uri_dashes'] = FALSE;
