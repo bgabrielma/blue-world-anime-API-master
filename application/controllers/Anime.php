@@ -55,7 +55,6 @@ class Anime extends BWA_Controller {
 			
 			$final_array->append(array("informations" => $_iteratorArray, "designations" => $enumDesignations));
 		}
-
 		parent::output($status = array('code' => 200, 'message' => $final_array));
 	}
 
